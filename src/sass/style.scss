@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+body{
+    font-family: 'Outfit';
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, #e1e7f0, #ccddf7);
+    width: 100%;
+    height: 100svh;
+}
+
+img{
+    width: 17rem;
+    margin: 0.4rem;
+    transition: all 0.5s ease-in-out;
+}
+p{
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+    margin: 0.5em;
+}
+
+.card{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 100%);
+    padding: 0.4rem;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 300px;
+    border-radius: 1em;
+    box-shadow: 15px 15px 20px rgba($color: hsl(218, 44%, 22%), $alpha: 0.15);
+    transition: all 0.5s ease-in-out;
+}
+
+.card #title {
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+}
+
+.card > img{
+    border-radius: 8px;
+}
+
+.text{
+    margin-top: -10px;
+    padding: 10pt;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 25px;
+    display: flex;
+    color: hsl(218, 44%, 22%);
+
+    transition: all 0.5s ease-in-out;
+  
+    @media screen and (max-width: 760px) {
+      flex-direction: column;
+      font-size: 12px;
+      align-items: center;
+      text-align: center;
+      bottom: -12px;
+      font-weight: 700;
+    }
+  }
+  
+
+@media (max-width: 375px) {
+    .card {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        width: calc(16rem);
+      }
+    
+      .card > img {
+        width: 14rem;
+        justify-self: center;
+      }
+    
+      .text > p {
+        font-size: 15px;
+        text-align: center;
+      }
+  }
+  
+  
