@@ -16,8 +16,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-qr-code-card-with-sass-and-css-grid-ImwzK2TMuE)
-- Live Site URL: [Add live site URL here](https://qr-code-component-5amfix1zg-silestergold9.vercel.app)
+- Solution URL: [My Solution](https://www.frontendmentor.io/solutions/responsive-qr-code-card-with-sass-and-css-grid-ImwzK2TMuE)
+- Live Site URL: [Click for the live demo](https://qr-code-component-5amfix1zg-silestergold9.vercel.app)
 
 ### Built with
 
