@@ -16,8 +16,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-qr-code-card-with-sass-and-css-grid-ImwzK2TMuE)
+- Live Site URL: [Add live site URL here](https://qr-code-component-5amfix1zg-silestergold9.vercel.app)
 
 ### Built with
 
@@ -25,6 +25,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - CSS custom properties
 - Flexbox
 - CSS Grid
+- SASS
 - Media Queries
 - Mobile-first workflow
 
@@ -58,5 +59,5 @@ I definitely will use more the combination of FlexBox with Grid Layout, and i wo
 
 ## Author
 
-- Website - [Silvestre Dourado](https://www.your-site.com)
+- Website - [Silvestre Dourado](https://github.com/SilesterGold9/)
 - Frontend Mentor - [@SilesterGold9](https://www.frontendmentor.io/profile/yourusername)
